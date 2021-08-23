@@ -1,0 +1,86 @@
+.App {
+  text-align: left;
+}
+
+.compile *{
+  padding: 10px 20px;
+}
+
+.Container {
+  display: block;
+  width: 95%;
+}
+
+.Field {
+  width: 95%;
+}
+
+.navbar {
+  display: flex;
+}
+
+.navbar h1 {
+  padding-right: 150px;
+  color: rgb(150,150,150);
+}
+
+.navbar a {
+  color: rgb(90, 165, 210);
+  text-decoration: none;
+}
+
+.note {
+  font-size: 12px;
+  font-style: italic;
+  color: rgb(150,150,150);
+}
+
+.preview {
+  display: flex;
+}
+
+.side {
+  float: left;
+  width: 25%;
+  background-color: rgb(45, 45, 45);
+  color: white;
+  border-right: 15px solid white;
+}
+
+.side > * {
+  padding: 2px 4px;
+}
+
+.personalData {
+  background-color: rgb(90, 165, 210);
+  margin: 15px 0 0 15px;
+  z-index: 1;
+  box-shadow: 15px 0 rgb(90, 165, 210);
+}
+
+.personalData > * {
+  padding: 2px 4px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.sideDescription {
+  font-style: italic;
+  color: rgb(240, 240, 240)
+}
+
+.main {
+  float: left;
+  width: 75%;
+}
+
+.main > * {
+  padding: 2px 4px;
+  margin-left: 10px;
+}
+
+h2 {
+  color:rgb(90, 165, 210);
+  border-bottom: 2px solid rgb(90, 165, 210);
+  width: 90%;
+}
